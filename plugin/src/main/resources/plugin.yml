@@ -1,0 +1,4 @@
+main: org.jukeboxmc.plugin.perms.JPermsPlugin
+name: JPerms
+version: 1.0.0
+author: Kaooot
