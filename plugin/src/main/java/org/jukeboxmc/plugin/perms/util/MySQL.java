@@ -1,6 +1,7 @@
 package org.jukeboxmc.plugin.perms.util;
 
 import com.google.inject.Inject;
+import com.google.inject.Singleton;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -12,6 +13,7 @@ import lombok.RequiredArgsConstructor;
  * @author Kaooot
  * @version 1.0
  */
+@Singleton
 @RequiredArgsConstructor(onConstructor_ = @Inject)
 public class MySQL {
 
