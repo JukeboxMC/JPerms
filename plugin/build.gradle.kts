@@ -14,7 +14,7 @@ repositories {
 
 dependencies {
     api(project(":api"))
-    implementation("org.jukeboxmc:JukeboxMC-API:1.0.0-SNAPSHOT")
+    compileOnly("org.jukeboxmc:JukeboxMC-API:1.0.0-SNAPSHOT")
     implementation("com.mysql:mysql-connector-j:8.3.0")
     implementation("org.redisson:redisson:3.25.2") {
         exclude(group = "org.slf4j", module = "slf4j-api")
