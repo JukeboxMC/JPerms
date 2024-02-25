@@ -2,6 +2,9 @@
 
 JukeboxMC Permission Plugin
 
+## Download
+[Jenkins](https://jenkins.jukeboxmc.eu/job/JPerms/)
+
 ```
 JPerms help
 /jperms addperm <user> <permission>
